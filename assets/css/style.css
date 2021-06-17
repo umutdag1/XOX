@@ -1,0 +1,32 @@
+/*Environment*/
+#mainEnv {
+    width: 450px;
+    box-sizing: border-box;
+    margin : 0 auto;
+    text-align: center;
+}
+
+.square {
+    width : 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 5px 5px;
+    padding: 4px 4px;
+    display: inline-block;
+}
+
+/*Images*/
+.XO {
+    width: inherit;
+    height: inherit;
+}
+
+/*Titles*/
+#playerTurnInfo {
+    text-align: center;
+}
+
+#gameTitle {
+    text-align: center;
+}
+
