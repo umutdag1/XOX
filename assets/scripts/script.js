@@ -41,7 +41,6 @@ function setAndgetSquareArr() {
             const imgElem = mainEnvSubSquares[i].getElementsByClassName("XO")[0];
             const imgSrcStr = imgElem.src;
             const imgLastWord = imgSrcStr.slice(imgSrcStr.lastIndexOf("/") + 1);
-            console.log(imgLastWord)
             if (imgLastWord === 'X.png' || imgLastWord === 'O.png') {
                 squareArr[i] = imgLastWord[0];
             }
