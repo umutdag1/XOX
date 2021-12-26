@@ -69,8 +69,8 @@ function checkSquareArr(arr) {
     } else if (arr[8] != 0 && arr[8] == arr[5] && arr[5] == arr[2]) {
         winnerStatus = `Winner ${arr[8]}`;
     } else {
-        const tempArr = arr.filter((elem) => elem === 0);
-        if (tempArr.length == 0) {
+        const isEverySquareFilled = arr.every((elem) => typeof elem === "string");
+        if (isEverySquareFilled) {
             winnerStatus = `Tie! No Winner`;
         }
     }
